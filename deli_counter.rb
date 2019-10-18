@@ -28,7 +28,7 @@ else
   array.push(string)
    puts "Welcome, #{array.last}. You are number #{counter} in line."
   
-  binding.pry
+  #binding.pry
       
     
   end
