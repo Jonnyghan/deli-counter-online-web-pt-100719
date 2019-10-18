@@ -39,5 +39,6 @@ def now_serving(array)
     array.each do |name| array.unshift
     array
   end
+  end
 end
   
