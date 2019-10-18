@@ -29,7 +29,8 @@ else
    puts "Welcome, #{array.last}. You are number #{counter} in line."
   
   #binding.pry
-      
-    
   end
 end
+
+def now_serving
+  
