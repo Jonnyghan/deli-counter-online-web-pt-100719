@@ -24,10 +24,10 @@ def take_a_number(array,string)
   counter = 1
   puts "Welcome, #{string}. You are number #{counter} in line."
 else
-  counter = 1
+  counter = 4
   array.push(string)
-  array.each do |name| puts "Welcome, #{name}. You are number #{counter} in line."
-  counter += 1
+   puts "Welcome, #{array.last}. You are number #{counter} in line."
+  
   binding.pry
       
     end
